@@ -1,0 +1,169 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  user-select: none;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #dad9e3 !important;
+}
+/*Menu navegação*/
+.menu {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 7px 13px;
+  text-decoration: none;
+  color: #153126;
+  text-align: center;
+}
+.menu.active,
+.menu:hover {
+  background: #fff;
+  transition: 0.5s;
+  color: #153126;
+}
+/*Títulos das seções*/
+.topic {
+  font-size: 2rem;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  text-align: center;
+  color: #153126;
+  text-shadow: #707972 2px 3px;
+  border-top: 1px solid #cccccc;
+}
+/*banner fundo home*/
+.header {
+  background-image: url(./img/fundo.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 92vh;
+  z-index: -1;
+}
+.header img {
+  width: 26vw;
+  height: auto;
+  position: absolute;
+  top: 30%;
+  left: 35%;
+}
+/*Cards de serviços página Home*/
+.servicos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.cardCircle img {
+  width: 150px;
+  height: 150px;
+  margin: 40px;
+  border-radius: 50%;
+  box-shadow: 1px 2px rgb(182, 183, 189);
+}
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+/*footer*/
+footer {
+  background-color: #153126;
+}
+.row-footer {
+  text-align: center;
+  padding-top: 10px;
+  bottom: 0;
+}
+.col-footer {
+  color: #fff;
+  font-size: 11px;
+}
+.col-footer a {
+  color: #fff;
+  text-decoration: none;
+}
+/*Cards Destinos e Promocoes*/
+.subtitle {
+  margin-top: 20px;
+  font-size: 2rem;
+  flex-wrap: wrap;
+  margin-left: 20px;
+  color: #153126;
+}
+.card {
+  margin: 20px 20px;
+  padding: 2px;
+  box-shadow: #5aa9c4 2px 3px;
+}
+.description {
+  padding-left: 5px;
+  text-align: justify;
+  margin: 5px 2px;
+  font-size: 14px;
+  padding: 10px;
+}
+.description span {
+  text-decoration: line-through;
+}
+.description h2 {
+  color: #5aa9c4;
+  text-align: center;
+}
+.description span .cancela {
+  color: #5aa9c4;
+}
+.cancel {
+  color: #3d8389;
+}
+.form {
+  width: 80%;
+  margin-left: 10vw;
+  margin-top: 40px;
+  background: rgba(90, 169, 196, 0.1);
+  border-radius: 12px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  justify-content: center;
+  align-items: center;
+  padding: 25px 20px;
+}
+/*Página Contato*/
+.form img {
+  width: 100%;
+  padding-top: 20px;
+}
+#div-contato {
+  border-top: 1px solid #cccccc;
+}
+.button {
+  margin-right: 10px;
+}
+/*Article*/
+.lead {
+  margin: 8px 4px;
+  padding: 20px 20px;
+}
+/*Newsletter*/
+.news {
+  border-top: 1px solid #cccccc;
+  padding: 10px 10px;
+  margin: 20px 20px;
+  text-align: center;
+}
+.news input,
+select {
+  margin: 10px;
+  padding-left: 10px;
+  height: 40px;
+  border: solid 1px #ccc;
+  border-radius: 4px;
+  font-size: 18px;
+  width: 40%;
+}
+select {
+  width: 26vw;
+}
