@@ -14,7 +14,6 @@ import Title from "../components/Title";
 import Article from "../components/Article";
 
 import mapa from "../img/Mapa.png";
-import Formulario from "../components/Formulario";
 
 const Contato = () => {
   return (
