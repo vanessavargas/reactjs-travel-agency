@@ -1,24 +1,8 @@
-import Title from "./Title";
-import {
-  Container,
-  Form,
-  FormGroup,
-  Label,
-  Input,
-  FormText,
-  Button,
-  Col,
-  Row,
-  Collapse,
-} from "reactstrap";
-
-
 import api from "../../api";
 import { useRef, useEffect } from "react";
 import axios from "axios";
 
-
-const FormReserva = () => {
+const Formulario = () => {
   const nome = useRef();
   const email = useRef();
   const destino = useRef();
@@ -64,6 +48,4 @@ const FormReserva = () => {
   );
 };
 
-export default FormReserva;
-
-    
+export default Formulario;
