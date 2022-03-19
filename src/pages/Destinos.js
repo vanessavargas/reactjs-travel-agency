@@ -1,8 +1,10 @@
 import React from "react";
+
 import { CardGroup, CardBody, Card, CardText, CardImg } from "reactstrap";
 
 import Title from "../components/Title";
 import FormReserva from "../components/FormReserva";
+import Formulario from "../components/Formulario";
 
 import Floripa from "../img/florianopolis.png";
 import Foz from "../img/foz-iguacu.png";
@@ -114,6 +116,7 @@ const Destinos = () => {
         </Card>
       </CardGroup>
       <FormReserva />
+      <Formulario />
     </div>
   );
 };
