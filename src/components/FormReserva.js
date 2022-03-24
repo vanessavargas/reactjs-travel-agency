@@ -1,18 +1,7 @@
 import Title from "./Title";
-import {
-  Container,
-  Form,
-  FormGroup,
-  Label,
-  Input,
-  FormText,
-  Button,
-  Col,
-  Row,
-  Collapse,
-} from "reactstrap";
+import { Container, Form, FormGroup, Label, Input, Button } from "reactstrap";
 
-import api from "../services/api";
+import api from "../api";
 import { useRef, useEffect } from "react";
 import axios from "axios";
 
