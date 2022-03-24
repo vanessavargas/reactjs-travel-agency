@@ -12,11 +12,9 @@ import {
   Collapse,
 } from "reactstrap";
 
-
-import api from "../../api";
+import api from "../api";
 import { useRef, useEffect } from "react";
 import axios from "axios";
-
 
 const FormReserva = () => {
   const nome = useRef();
@@ -65,5 +63,3 @@ const FormReserva = () => {
 };
 
 export default FormReserva;
-
-    
