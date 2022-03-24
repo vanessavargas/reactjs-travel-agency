@@ -11,6 +11,7 @@ import Gramado from "../img/gramado.png";
 import Disney from "../img/disney.png";
 import Buenos from "../img/buenos-aires.png";
 import Paris from "../img/paris.png";
+import RegistroViagens from "../components/RegistroViagens";
 
 const Destinos = () => {
   return (
@@ -115,6 +116,7 @@ const Destinos = () => {
         </Card>
       </CardGroup>
       <FormReserva />
+      <RegistroViagens />
     </div>
   );
 };

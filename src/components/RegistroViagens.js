@@ -1,5 +1,4 @@
-import "./index.css";
-import api from "../../api";
+import api from "../services/api";
 import { useEffect, useState } from "react";
 
 const RegistroViagens = () => {
@@ -34,8 +33,10 @@ const RegistroViagens = () => {
                 <h5>Destino: {viagem.destino}</h5>
               </div>
               <button className="btn-floating halfway-fab waves-effect waves-light red large">
-                <i className="bi-trash"></i>
+                <i className="bi-trash">Excluir</i>
               </button>
+              <button>Alterar</button>
+              <button>Verificar</button>
             </div>
           </div>
         ))}
@@ -44,4 +45,4 @@ const RegistroViagens = () => {
   );
 };
 
-export default Cards;
+export default RegistroViagens;

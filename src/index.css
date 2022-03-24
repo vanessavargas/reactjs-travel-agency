@@ -139,6 +139,11 @@ footer {
 #div-contato {
   border-top: 1px solid #cccccc;
 }
+#text-contato {
+  text-align: center;
+  color: #153126;
+  padding: 20px;
+}
 .button {
   margin-right: 10px;
 }
@@ -166,4 +171,19 @@ select {
 }
 select {
   width: 26vw;
+}
+
+/*tutorials*/
+.list {
+  text-align: left;
+  max-width: 750px;
+  margin: auto;
+}
+.submit-form {
+  max-width: 300px;
+  margin: auto;
+}
+.edit-form {
+  max-width: 300px;
+  margin: auto;
 }
