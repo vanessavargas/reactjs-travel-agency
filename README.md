@@ -3,6 +3,9 @@
 Projeto realizado como Atividade Prática do Módulo 5. Esta etapa refere-se a uma evolução do projeto Agência de Viagens, com os recursos:
 Seguindo padrões de projeto, esta atividade refere-se a atualização final da aplicação WEB Agência de Viagens. Para isto, foi utilizado o Ecosistema Spring, com Front-end usando ReactJS e Back-end com Java Spring Boot, Spring MVC, Persistencia de Dados com Hibernate e Spring Security.
 
+- Link da aplicação:
+  https://ativ-mod5-recode-nf1l15uay-vanessavargas.vercel.app/
+
 ## Banco de dados
 
 Construção da base de dados usando o padrão MySQL que atenda as especioficações do projeto usando o ecosistema Spring e as Tecnologias da plataforma e linguagem Java aplicando ORM (Object-Relational Mapping ou em português mapeamento objeto-relacional).
