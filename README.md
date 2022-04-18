@@ -3,7 +3,7 @@
 Projeto realizado como Atividade Prática do Módulo 5. Seguindo padrões de projeto, esta atividade refere-se a atualização final da aplicação WEB Agência de Viagens. Para isto, foi utilizado o Ecosistema Spring, com Front-end usando ReactJS e Back-end com Java Spring Boot, Spring MVC e Persistencia de Dados.
 
 - Link da aplicação:
-  https://ativ-mod5-recode-nf1l15uay-vanessavargas.vercel.app/
+  https://ativ-mod5-recode.vercel.app/
 
 ## Banco de dados
 
