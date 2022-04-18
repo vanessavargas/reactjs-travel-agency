@@ -18,6 +18,7 @@ class App extends Component {
       inputValue: event.target.value,
     });
   };
+
   render() {
     const { clickButton, newValue } = this.props;
 

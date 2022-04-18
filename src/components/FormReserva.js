@@ -53,36 +53,6 @@ const FormReserva = () => {
               </FormGroup>
             </div>
           </Form>
-          {/*Teste de form
-          <div>
-            <div className="row">
-              <form className="col s12" onSubmit={enviarDados}>
-                <div className="row">
-                  <div className="input-field col s12">
-                    <input type="text" className="validate" ref={nome} />
-                    <label>Nome do produto</label>
-                  </div>
-                  <div className="input-field col s12">
-                    <input type="text" className="validate" ref={email} />
-                    <label>E-mail</label>
-                  </div>
-                  <div className="input-field col s12">
-                    <input type="text" className="validate" ref={destino} />
-                    <label>Destino</label>
-                  </div>
-                  <div className="col s12">
-                    <button
-                      className="waves-effect waves-light btn"
-                      type="submit"
-                    >
-                      Enviar
-                    </button>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-          //Teste de form*/}
         </Container>
       </div>
       <Container className="container bg-transparent sm-shadow"></Container>
