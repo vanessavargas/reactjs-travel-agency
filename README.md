@@ -25,7 +25,7 @@ Views da aplicação realizadas com a biblioteca React JS, Bootstrap, Reactstrap
 
 - Página Destinos
 
-![Mockups](https://github.com/VanessaVargas/desafio-mod4/blob/master/src/img/pag-destinos.png)
+![Mockups](https://github.com/VanessaVargas/ativ-mod5-Recode/blob/master/src/img/pag-destinos.png)
 
 - Página Promoções
 
