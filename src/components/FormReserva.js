@@ -2,8 +2,7 @@ import Title from "./Title";
 import { Container, Form, FormGroup, Label, Input, Button } from "reactstrap";
 
 import api from "../api";
-import { useRef, useEffect } from "react";
-import axios from "axios";
+import { useRef } from "react";
 
 const FormReserva = () => {
   const nome = useRef();
@@ -13,7 +12,7 @@ const FormReserva = () => {
   function enviarDados(event) {
     event.preventDefault();
     api
-      .post("/viagens", {
+      .post("/destinos", {
         nome: nome.current.value,
         email: email.current.value,
         destino: destino.current.value,
@@ -47,8 +46,11 @@ const FormReserva = () => {
                 <Input type="text" className="validate" ref={destino} />
               </FormGroup>
               <FormGroup className="mb-3" controlId="formBasicEmail">
-                <Button className="btn" type="submit">
+                <Button className="button" color="secondary" type="submit">
                   Enviar
+                </Button>
+                <Button className="button" color="outline-secondary">
+                  Limpar
                 </Button>
               </FormGroup>
             </div>

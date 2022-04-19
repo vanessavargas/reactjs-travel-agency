@@ -4,18 +4,24 @@ import {
   Row,
   Col,
   Form,
-  FormGroup,
-  Label,
-  Input,
-  Button,
+  Accordion,
+  ButtonToggle,
+  Collapse,
 } from "reactstrap";
 
 import Title from "../components/Title";
 import Article from "../components/Article";
+import MsgContato from "../components/MsgContato";
+import RegistroMsg from "../components/RegistroMsg";
 
 import mapa from "../img/Mapa.png";
 
 const Contato = () => {
+  const [isOpen, setIsOpen] = React.useState(false);
+  const toggle = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <div>
       <Title title="Contato" />
@@ -34,27 +40,25 @@ const Contato = () => {
                 <img src={mapa} alt="mapa da empresa" />
               </Col>
               <Col>
-                <FormGroup className="mb-3" controlId="formBasicEmail">
-                  <Label>Nome</Label>
-                  <Input type="nome" placeholder="Digite seu nome" />
-                </FormGroup>
-                <FormGroup>
-                  <Label>E-mail</Label>
-                  <Input type="email" placeholder="E-mail" />
-                </FormGroup>
-                <FormGroup>
-                  <Label>Mensagem</Label>
-                  <Input type="textarea" placeholder="Sua mensagem" />
-                </FormGroup>
-                <Button className="button" color="secondary" type="submit">
-                  Enviar
-                </Button>
-                <Button className="button" color="outline-secondary">
-                  Limpar
-                </Button>
+                <MsgContato />
               </Col>
             </Row>
           </Form>
+        </Container>
+        <Container className="registros">
+          <Accordion defaultActiveKey="0">
+            <ButtonToggle
+              eventKey="0"
+              onClick={toggle}
+              color="outline-secondary"
+              className="toggle"
+            >
+              Consultar Mensagens Enviadas
+            </ButtonToggle>
+            <Collapse eventKey="0" isOpen={isOpen}>
+              <RegistroMsg />
+            </Collapse>
+          </Accordion>
         </Container>
       </div>
     </div>

@@ -41,7 +41,7 @@ const Footer = () => (
               Direito do Consumidor
             </a>
           </p>
-          <p>&COPY;2021 Vanessa Vargas. Todos os direitos reservados.</p>
+          <p>@2022 Vanessa Vargas. Todos os direitos reservados.</p>
         </Col>
       </Row>
     </Container>

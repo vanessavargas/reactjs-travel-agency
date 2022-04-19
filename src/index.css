@@ -114,11 +114,10 @@ footer {
   color: #5aa9c4;
   text-align: center;
 }
-.description span .cancela {
+.description span .cancela,
+.cancel,
+.nav-link {
   color: #5aa9c4;
-}
-.cancel {
-  color: #3d8389;
 }
 .form {
   width: 80%;
@@ -186,4 +185,12 @@ select {
 .edit-form {
   max-width: 300px;
   margin: auto;
+}
+.toggle {
+  border: none !important;
+  text-align: center;
+  width: 100%;
+}
+.registros {
+  margin-top: 20px;
 }

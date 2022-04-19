@@ -1,6 +1,16 @@
 import React from "react";
 
-import { CardGroup, CardBody, Card, CardText, CardImg } from "reactstrap";
+import {
+  CardGroup,
+  CardBody,
+  Card,
+  CardText,
+  CardImg,
+  Container,
+  Accordion,
+  ButtonToggle,
+  Collapse,
+} from "reactstrap";
 
 import Title from "../components/Title";
 import FormReserva from "../components/FormReserva";
@@ -14,6 +24,11 @@ import Paris from "../img/paris.png";
 import RegistroViagens from "../components/RegistroViagens";
 
 const Destinos = () => {
+  const [isOpen, setIsOpen] = React.useState(false);
+  const toggle = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <div>
       <Title title="Destinos mais procurados" />
@@ -116,7 +131,21 @@ const Destinos = () => {
         </Card>
       </CardGroup>
       <FormReserva />
-      <RegistroViagens />
+      <Container className="registros">
+        <Accordion defaultActiveKey="0">
+          <ButtonToggle
+            eventKey="0"
+            onClick={toggle}
+            color="outline-secondary"
+            className="toggle"
+          >
+            Consultar Mensagens Enviadas
+          </ButtonToggle>
+          <Collapse eventKey="0" isOpen={isOpen}>
+            <RegistroViagens />
+          </Collapse>
+        </Accordion>
+      </Container>
     </div>
   );
 };

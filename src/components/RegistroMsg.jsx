@@ -7,44 +7,47 @@ import api from "../api";
 import editar from "../img/icone-editar.png";
 import lixeira from "../img/icone-lixeira.png";
 
-const RegistroViagens = () => {
-  const [Destino, setDestino] = useState([]);
+const RegistroMsg = () => {
+  const [MsgRegistrada, setMsgRegistrada] = useState([]);
 
   useEffect(() => {
     api
-      .get("/Destino")
-      .then((res) => setDestino(res.data))
+      .get("/Mensagem")
+      .then((res) => setMsgRegistrada(res.data))
       .catch((err) => console.log(err));
   }, []);
 
   function deletar(img) {
     api
-      .delete(`/Destino/${img.target.id}`)
+      .delete(`/Mensagem/${img.target.id}`)
       .then((res) => window.location.reload())
       .catch((err) => console.log(err));
   }
 
   return (
     <section className="container">
-      <Title titulo="Viagens registradas"></Title>
+      <Title titulo="Mensagens registradas"></Title>
       <table className="table table-striped table-hover">
         <thead>
           <tr>
             <th scope="col">N° Registro</th>
             <th scope="col">Nome</th>
             <th scope="col">E-mail</th>
-            <th scope="col">Destino</th>
+            <th scope="col">Mensagem</th>
           </tr>
         </thead>
         <tbody>
-          {Destino.map((Destino) => (
-            <tr key={Destino.id_destino}>
-              <th>{Destino.id_destino}</th>
-              <td>{Destino.nome}</td>
-              <td>{Destino.email}</td>
-              <td>{Destino.destino}</td>
+          {MsgRegistrada.map((MsgRegistrada) => (
+            <tr key={MsgRegistrada.id_MsgRegistrada}>
+              <th>{MsgRegistrada.id_MsgRegistrada}</th>
+              <td>{MsgRegistrada.nomeContato}</td>
+              <td>{MsgRegistrada.emailComtato}</td>
+              <td>{MsgRegistrada.mensagem}</td>
               <td>
-                <Link className="btn" to={`/EditarViagem/${Destino.Destino}`}>
+                <Link
+                  className="btn"
+                  to={`/EditarMensagem/${MsgRegistrada.MsgRegistrada}`}
+                >
                   <img src={editar} alt="Update" width="20px" />
                 </Link>
               </td>
@@ -54,7 +57,7 @@ const RegistroViagens = () => {
                     src={lixeira}
                     alt="Editar"
                     width="20px"
-                    id={Destino.Destino}
+                    id={MsgRegistrada.MsgRegistrada}
                     onClick={(img) => deletar(img)}
                   />
                 </div>
@@ -67,4 +70,4 @@ const RegistroViagens = () => {
   );
 };
 
-export default RegistroViagens;
+export default RegistroMsg;
