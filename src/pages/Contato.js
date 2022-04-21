@@ -1,13 +1,5 @@
 import React from "react";
-import {
-  Container,
-  Row,
-  Col,
-  Form,
-  Accordion,
-  ButtonToggle,
-  Collapse,
-} from "reactstrap";
+import { Container, Accordion, ButtonToggle, Collapse } from "reactstrap";
 
 import Title from "../components/Title";
 import Article from "../components/Article";
@@ -34,16 +26,16 @@ const Contato = () => {
       <div className="form">
         <Container className="container bg-transparent sm-shadow">
           <Title title="Envie sua mensagem" />
-          <Form>
-            <Row>
-              <Col>
+          <Container>
+            <div className="row">
+              <div className="col-md-6 order-md-1">
                 <img src={mapa} alt="mapa da empresa" />
-              </Col>
-              <Col>
+              </div>
+              <div className="col-md-6 order-md-2">
                 <MsgContato />
-              </Col>
-            </Row>
-          </Form>
+              </div>
+            </div>
+          </Container>
         </Container>
         <Container className="registros">
           <Accordion defaultActiveKey="0">

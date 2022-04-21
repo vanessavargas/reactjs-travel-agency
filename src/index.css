@@ -146,6 +146,9 @@ footer {
 .button {
   margin-right: 10px;
 }
+.flex {
+  display: flex;
+}
 /*Article*/
 .lead {
   margin: 8px 4px;
