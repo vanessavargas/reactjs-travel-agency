@@ -1,8 +1,8 @@
-import Title from "./Title";
+import React, { useRef } from "react";
 import { Container, Form, FormGroup, Label, Input, Button } from "reactstrap";
 
-import api from "../api";
-import { useRef } from "react";
+import Title from "./Title";
+import api from "../_config/api";
 
 const FormReserva = () => {
   const nome = useRef();

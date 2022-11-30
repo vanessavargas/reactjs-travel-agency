@@ -4,9 +4,9 @@ import { Container, Accordion, ButtonToggle, Collapse } from "reactstrap";
 import Title from "../components/Title";
 import Article from "../components/Article";
 import MsgContato from "../components/MsgContato";
-import RegistroMsg from "../components/RegistroMsg";
+import RegistroMsg from "../components/MsgContato/RegistroMsg";
 
-import mapa from "../img/Mapa.png";
+import mapa from "../_assets/img/Mapa.png";
 
 const Contato = () => {
   const [isOpen, setIsOpen] = React.useState(false);

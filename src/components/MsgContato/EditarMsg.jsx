@@ -2,8 +2,8 @@ import React from "react";
 import { useRef } from "react";
 import { useParams } from "react-router-dom";
 
-import Title from "../components/Title";
-import api from "../api";
+import Title from "../Title";
+import api from "../../_config/api";
 
 const EditarMensagens = () => {
   const { id } = useParams();
@@ -21,7 +21,7 @@ const EditarMensagens = () => {
       })
       .then(
         (res) =>
-          (window.location.href = "https://ativ-mod5-recode.vercel.app/contato")
+          (window.location.href = "https://projeto-final-recode.vercel.app/contato")
       )
       .catch((err) => console.log(err));
   }

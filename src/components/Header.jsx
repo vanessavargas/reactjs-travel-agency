@@ -7,13 +7,9 @@ import {
   Nav,
   NavItem,
 } from "reactstrap";
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
-import Logo from "../img/viaggero.png";
+import { Link } from "react-router-dom";
 
-import Home from "../pages/Home";
-import Destinos from "../pages/Destinos";
-import Promocoes from "../pages/Promocoes";
-import Contato from "../pages/Contato";
+import Logo from "../_assets/img/viaggero.png";
 
 const Header = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,9 +17,8 @@ const Header = (props) => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <div>
-      <Router>
-        <Navbar color="transparent" light expand="md" width="100%">
+    <>
+      <Navbar color="transparent" light expand="md" width="100%">
           <NavbarBrand href="/">
             <img
               width="60px"
@@ -59,14 +54,7 @@ const Header = (props) => {
             </Nav>
           </Collapse>
         </Navbar>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/destinos" element={<Destinos />} />
-          <Route path="/promocoes" element={<Promocoes />} />
-          <Route path="/contato" element={<Contato />} />
-        </Routes>
-      </Router>
-    </div>
+    </>
   );
 };
 

@@ -2,7 +2,7 @@ import React from "react";
 import { useRef } from "react";
 import { Form, FormGroup, Label, Button, Input } from "reactstrap";
 
-import api from "../api";
+import api from "../../_config/api";
 
 const MsgContato = (props) => {
   const nomeContato = useRef();

@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-import Title from "../components/Title";
-import api from "../api";
+import Title from "./Title";
+import api from "../_config/api";
 
-import editar from "../img/icone-editar.png";
-import lixeira from "../img/icone-lixeira.png";
+import editar from "../_assets/img/icone-editar.png";
+import lixeira from "../_assets/img/icone-lixeira.png";
 
 const RegistroViagens = () => {
   const [Destino, setDestino] = useState([]);

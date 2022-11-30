@@ -14,14 +14,14 @@ import {
 
 import Title from "../components/Title";
 import FormReserva from "../components/FormReserva";
-
-import Floripa from "../img/florianopolis.png";
-import Foz from "../img/foz-iguacu.png";
-import Gramado from "../img/gramado.png";
-import Disney from "../img/disney.png";
-import Buenos from "../img/buenos-aires.png";
-import Paris from "../img/paris.png";
 import RegistroViagens from "../components/RegistroViagens";
+
+import Floripa from "../_assets/img/florianopolis.png";
+import Foz from "../_assets/img/foz-iguacu.png";
+import Gramado from "../_assets/img/gramado.png";
+import Disney from "../_assets/img/disney.png";
+import Buenos from "../_assets/img/buenos-aires.png";
+import Paris from "../_assets/img/paris.png";
 
 const Destinos = () => {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -30,7 +30,7 @@ const Destinos = () => {
   };
 
   return (
-    <div>
+    <>
       <Title title="Destinos mais procurados" />
       <h3 className="subtitle">Nacionais</h3>
       <CardGroup color="transparent">
@@ -146,7 +146,7 @@ const Destinos = () => {
           </Collapse>
         </Accordion>
       </Container>
-    </div>
+    </>
   );
 };
 

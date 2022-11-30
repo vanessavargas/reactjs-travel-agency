@@ -1,7 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-import logot from "../img/logot.png";
-import pagamentos from "../img/pagamentos.png";
+import { Link } from 'react-router-dom';
+
+import logot from "../_assets/img/logot.png";
+import pagamentos from "../_assets/img/pagamentos.png";
 
 const Footer = () => (
   <footer>
@@ -9,13 +11,13 @@ const Footer = () => (
       <Row color="transparent">
         <Col sm className="col-footer" color="transparent">
           <li>
-            <a href="contato.html">
+            <Link to="/contato">
               <b>Contato</b>
-            </a>
+            </Link>
             |
-            <a href="#">
+            <Link to="/">
               <b>Sobre a empresa</b>
-            </a>
+            </Link>
           </li>
           <br />
           <p>
@@ -45,7 +47,7 @@ const Footer = () => (
         </Col>
       </Row>
     </Container>
-  </footer>
+    </footer>
 );
 
 export default Footer;

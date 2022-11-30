@@ -2,22 +2,22 @@ import React from "react";
 import { CardGroup, Card, CardBody, CardText, CardImg } from "reactstrap";
 import Title from "../components/Title";
 
-import Floripa from "../img/florianopolis.png";
-import Caldas from "../img/caldas-novas.png";
-import Foz from "../img/foz-iguacu.png";
-import Grecia from "../img/grecia.png";
-import Jericoacoara from "../img/jericoacoara.png";
-import Gramado from "../img/gramado.png";
-import Disney from "../img/disney.png";
-import Buenos from "../img/buenos-aires.png";
-import Lencois from "../img/lencois.png";
-import Maragogi from "../img/maragogi.png";
-import Paris from "../img/paris.png";
-import Paraty from "../img/paraty.png";
+import Floripa from "../_assets/img/florianopolis.png";
+import Caldas from "../_assets/img/caldas-novas.png";
+import Foz from "../_assets/img/foz-iguacu.png";
+import Grecia from "../_assets/img/grecia.png";
+import Jericoacoara from "../_assets/img/jericoacoara.png";
+import Gramado from "../_assets/img/gramado.png";
+import Disney from "../_assets/img/disney.png";
+import Buenos from "../_assets/img/buenos-aires.png";
+import Lencois from "../_assets/img/lencois.png";
+import Maragogi from "../_assets/img/maragogi.png";
+import Paris from "../_assets/img/paris.png";
+import Paraty from "../_assets/img/paraty.png";
 
 const Promocoes = () => {
   return (
-    <div>
+    <>
       <Title title="Promoções Nacionais e Internacionais" />
       <CardGroup>
         <Card className="card">
@@ -267,7 +267,7 @@ const Promocoes = () => {
           </CardBody>
         </Card>
       </CardGroup>
-    </div>
+    </>
   );
 };
 

@@ -1,21 +1,20 @@
 import React from "react";
 
-import logo from "../img/logo.png";
-
 import Article from "../components/Article";
 import Title from "../components/Title";
 import CardCircle from "../components/CardCircle";
 
-import Pacotes from "../img/pacotes.png";
-import Passagens from "../img/passagens.png";
-import Hoteis from "../img/hoteis.png";
-import Passeios from "../img/passeios.png";
+import logo from "../_assets/img/logo.png";
+import Pacotes from "../_assets/img/pacotes.png";
+import Passagens from "../_assets/img/passagens.png";
+import Hoteis from "../_assets/img/hoteis.png";
+import Passeios from "../_assets/img/passeios.png";
 
 const Home = () => {
   return (
     <div>
       <div className="header">
-        <img src={logo} />
+        <img src={logo} alt="logotipo"/>
       </div>
       <Title title="Nossos Serviços" />
       <div className="servicos">

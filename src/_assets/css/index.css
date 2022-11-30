@@ -37,7 +37,7 @@ body {
 }
 /*banner fundo home*/
 .header {
-  background-image: url(./img/fundo.jpeg);
+  background-image: url(../img/fundo.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 92vh;
