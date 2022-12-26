@@ -51,6 +51,11 @@ const Header = (props) => {
                   Contato
                 </Link>
               </NavItem>
+              <NavItem>
+                <Link class="menu" to="/cadastros">
+                  Cadastros
+                </Link>
+              </NavItem>
             </Nav>
           </Collapse>
         </Navbar>
