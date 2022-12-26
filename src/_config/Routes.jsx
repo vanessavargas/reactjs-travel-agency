@@ -9,6 +9,7 @@ import Home from "../pages/Home";
 import Destinos from "../pages/Destinos";
 import Promocoes from "../pages/Promocoes";
 import Contato from "../pages/Contato";
+import Cadastros from "../pages/Cadastros";
 
 export default function Rotas () {
     return (
@@ -20,6 +21,7 @@ export default function Rotas () {
           <Route path="/destinos" element={<Destinos />} />
           <Route path="/promocoes" element={<Promocoes />} />
           <Route path="/contato" element={<Contato />} />
+          <Route path="/cadastros" element={<Cadastros />} />
         </Routes>
         <Newsletter />
         <Footer />
