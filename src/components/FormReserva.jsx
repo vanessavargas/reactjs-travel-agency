@@ -8,6 +8,8 @@ const FormReserva = () => {
   const nome = useRef();
   const email = useRef();
   const destino = useRef();
+  const ida = useRef();
+  const volta = useRef();
 
   function enviarDados(event) {
     event.preventDefault();
@@ -16,6 +18,8 @@ const FormReserva = () => {
         nome: nome.current.value,
         email: email.current.value,
         destino: destino.current.value,
+        ida: ida.current.value,
+        volta: volta.current.value,
       })
       .then(() => window.location.reload())
       .catch((err) => console.log(err));
@@ -45,7 +49,15 @@ const FormReserva = () => {
                 <Label>Destino</Label>
                 <Input type="text" className="validate" ref={destino} />
               </FormGroup>
-              <FormGroup className="mb-3" controlId="formBasicEmail">
+              <FormGroup className="col-6">
+                <Label>Ida</Label>
+                <Input type="date" className="validate" ref={ida} />
+              </FormGroup>
+              <FormGroup className="col-6">
+                <Label>Volta</Label>
+                <Input type="date" className="validate" ref={volta} />
+              </FormGroup>
+              <FormGroup className="mb-3 text-center" controlId="formBasicEmail">
                 <Button className="button" color="secondary" type="submit">
                   Enviar
                 </Button>
