@@ -19,7 +19,7 @@ Front End do Projeto final do Programa Recode Pro 2021, desenvolvido em React JS
 
 - Página Destinos
 
-![Layout](https://github.com/VanessaVargas/ativ-mod5-Recode/blob/master/src/img/pag-destinos.png)
+![Layout](https://github.com/VanessaVargas/desafio-mod4/blob/master/src/img/pag-destinos.png)
 
 - Página Promoções
 
@@ -29,10 +29,12 @@ Front End do Projeto final do Programa Recode Pro 2021, desenvolvido em React JS
 
 ![Layout](https://github.com/VanessaVargas/desafio-mod4/blob/master/src/img/pag-contato.png)
 
+<!--
 ### Back End
 Durante o curso, foram desenvolvidas três APIS para serem consumidas pelo Front. Podem ser encontradas nos links abaixo, conforme a linguagem:
 - Java (com JDBC):
 - Spring Boot:https://github.com/VanessaVargas/api-spring-recode2021
 - C#:
+-->
 
 #### ✨ Desenvolvido por Vanessa Vargas ✨
