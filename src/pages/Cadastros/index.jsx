@@ -28,10 +28,10 @@ const Cadastros = () => {
                         <Label>Telefone</Label>
                         <Input type="number" class="form-control" asp-for="TelefoneCli" required />
                     </FormGroup>
-                    <Button type="submit" class="btn btn-dark">Cadastrar</Button>
-                    <Button type="submit" class="btn btn-dark">Atualizar</Button>
-                    <Button type="submit" class="btn btn-dark">Excluir</Button>
-                    <Button type="reset" class="btn btn-outline-dark">Limpar</Button>
+                    <Button type="submit" class="btn btn-dark m-2">Cadastrar</Button>
+                    <Button type="submit" class="btn btn-dark m-2">Atualizar</Button>
+                    <Button type="submit" class="btn btn-dark m-2">Excluir</Button>
+                    <Button type="reset" class="btn btn-outline-dark m-2">Limpar</Button>
                     </div>
                 </div>
                 </Container>
@@ -57,9 +57,10 @@ const Cadastros = () => {
                         <Label for="exampleInputPassword1">Mínimo de dias</Label>
                         <Input type="number" class="form-control" required />
                     </FormGroup>
-                    <Button type="submit" class="btn btn-dark">Cadastrar</Button>
-                    <Button type="submit" class="btn btn-dark">Atualizar</Button>
-                    <Button type="submit" class="btn btn-dark">Excluir</Button>
+                    <Button type="submit" class="btn btn-dark m-2">Cadastrar</Button>
+                    <Button type="submit" class="btn btn-dark m-2">Atualizar</Button>
+                    <Button type="submit" class="btn btn-dark m-2">Excluir</Button>
+                    <Button type="reset" class="btn btn-outline-dark m-2">Limpar</Button>
                     </div>
                 </div>
                 </Container>
