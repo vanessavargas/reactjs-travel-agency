@@ -37,4 +37,16 @@ Durante o curso, foram desenvolvidas três APIS para serem consumidas pelo Front
 - C#:
 -->
 
-#### ✨ Desenvolvido por Vanessa Vargas ✨
+<hr>
+
+#### Para baixar:
+realize a opção *Download ZIP* ou clone o repositório
+
+#### Para instalar as dependências:
+`npm install`
+
+#### Para inicializar o projeto:
+`npm start`
+
+<hr>
+Feito com ❤️ por VanessaVargas
