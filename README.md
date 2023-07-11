@@ -9,7 +9,7 @@ Front End do Projeto final do Programa Recode Pro 2021, desenvolvido em React JS
 - Redux
 
 ### Link da aplicação:
-  https://projeto-final-recode.vercel.app/
+  https://viaggero.vercel.app/
 
 ### Layouts das páginas
 
