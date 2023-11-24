@@ -1,52 +1,44 @@
-# Sobre o Projeto
+<div align="center">
+  
+# Viaggerò Travel Agency Front End
 
-Front End do Projeto final do Programa Recode Pro 2021, desenvolvido em React JS.
+![Layout](https://github.com/vanessavargas/reactjs-travel-agency-/blob/master/src/_assets/img/preview.png)
 
-### Tecnologias:
+</div>
+
+Front End of the final project for the Recode Pro 2021 Program, developed in React JS.
+
+### Technologies:
 - React JS
 - Bootstrap
 - Reactstrap
 - Redux
 
-### Link da aplicação:
-  https://viaggero.vercel.app/
-
-### Layouts das páginas
-
-- Página Home
-
-![Layout](https://github.com/VanessaVargas/desafio-mod4/blob/master/src/img/pag-home.png)
-
-- Página Destinos
-
-![Layout](https://github.com/VanessaVargas/desafio-mod4/blob/master/src/img/pag-destinos.png)
-
-- Página Promoções
-
-![Layout](https://github.com/VanessaVargas/desafio-mod4/blob/master/src/img/pag-promocoes.png)
-
-- Página Contato
-
-![Layout](https://github.com/VanessaVargas/desafio-mod4/blob/master/src/img/pag-contato.png)
+### Application Link
+The application is available at [here](https://viaggero.vercel.app/) .
 
 <!--
 ### Back End
-Durante o curso, foram desenvolvidas três APIS para serem consumidas pelo Front. Podem ser encontradas nos links abaixo, conforme a linguagem:
-- Java (com JDBC):
+During the course, three APIs were developed to be consumed by the Front End. They can be found at the links below, according to the language:
+- Java (with JDBC):
 - Spring Boot:https://github.com/VanessaVargas/api-spring-recode2021
 - C#:
 -->
 
 <hr>
 
-#### Para baixar:
-realize a opção *Download ZIP* ou clone o repositório
+#### To download:
+Choose *Download ZIP* or clone the repository.
 
-#### Para instalar as dependências:
+#### To install dependencies:
 `npm install`
 
-#### Para inicializar o projeto:
+#### To initialize the project:
 `npm start`
 
 <hr>
-Feito com ❤️ por VanessaVargas
+<div align="center">
+  
+Developed with ❤️ by Vanessa Vargas
+
+</div>
